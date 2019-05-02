@@ -18,7 +18,7 @@
 					<th scope="col">Costo Unitario</th>
           <th scope="col">Frecuencia</th>
 					<th scope="col">Costo Mensual</th>
-					<th scope="col" colspan="2">Acciones</th>
+					<th scope="col" colspan="2">Opciones</th>
 				</tr>
 			</thead>
 			<tbody>
