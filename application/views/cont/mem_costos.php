@@ -118,9 +118,11 @@
         </button>
       </div>
       <div >
-        <div class="modal-body text-left obligatorio2">
+				  <br>
+        <div class="modal-body text-left alert-warning">
           La categoría de memoria de costos se eliminará de la lista
         </div>
+						       <br>
         <form action="<?php echo base_url() ?>memory_calc/delete_mc" method="post">
         	<input type="hidden" name="eli" id="elim">
         	<input type="reset" class="btn btn-secondary col-4 offset-1" data-dismiss="modal" value="Cancelar">
@@ -200,7 +202,8 @@
       <div class="modal-body">
         
         <br>
-        <div class="modal-body text-left obligatorio2">El concepto de memoria de costos se eliminará de la lista</div>
+        <div class="modal-body text-left alert-warning">El concepto de memoria de costos se eliminará de la lista</div>
+						      <br>
         <form action="<?php echo base_url() ?>memory_calc/delete_mc" method="post">
         	<input type="hidden" name="eli" id="elim_cpto">
         	<input type="reset" class="btn btn-secondary col-4 offset-1" data-dismiss="modal" value="Cancelar">
