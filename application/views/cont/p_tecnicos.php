@@ -1,5 +1,5 @@
 <br>
-<div class="col-sm-4 offset-4 card" style="padding-top: 20px; padding-bottom: 20px; padding-left: 30px; padding-right: 30px;">
+<div class="col-sm-4 mx-auto card" style="padding-top: 20px; padding-bottom: 20px; padding-left: 30px; padding-right: 30px;">
 
   <?php  
     if($this->session->flashdata('flash'))
@@ -10,63 +10,63 @@
      <h2 class="text-center">Parámetros Técnicos</h2>
       <hr>
 		
-    <span>Área de Módulo</span>
+    <span class="espacio">Área de Módulo</span>
       <div class="card "> 
         <div>
           <span class="card-body">0</span>
         </div>
       </div>
 
-      <span>No. De Plantas por m<sup>2</sup></span>
+      <span class="espacio" >No. De Plantas por m<sup>2</sup></span>
       <div class="card"> 
         <div>
           <span class="card-body">0</span>
         </div>
       </div>
 
-      <span>No. total de Plantas por Módulo</span>
+      <span class="espacio">No. total de Plantas por Módulo</span>
       <div class="card"> 
         <div>
           <span class="card-body">0</span>
         </div>
       </div>
     
-      <span>Rendimiento Esperado</span>      
+      <span class="espacio">Rendimiento Esperado</span>      
       <div class="card"> 
         <div>
           <span class="card-body">0</span>
         </div>
       </div>
     
-      <span>Número de Modulos</span>
+      <span class="espacio">Número de Modulos</span>
       <div class="card"> 
         <div>
           <span class="card-body">0</span>
         </div>
       </div>
     
-      <span>Número de Sistemas de Riego</span>
+      <span class="espacio">Número de Sistemas de Riego</span>
       <div class="card"> 
         <div>
           <span class="card-body">0</span>
         </div>
       </div>
 
-      <span>Número de Sistemas de Calefacción</span>
+      <span class="espacio">Número de Sistemas de Calefacción</span>
       <div class="card"> 
         <div>
           <span class="card-body">0</span>
         </div>
       </div>
 
-      <span>Número de Ciclos por Año</span>
+      <span class="espacio">Número de Ciclos por Año</span>
       <div class="card"> 
         <div>
           <span class="card-body">0</span>
         </div>
       </div>
 
-      <span>Porcentaje de Inflación</span>
+      <span class="espacio">Porcentaje de Inflación</span>
       <div class="card"> 
         <div>
           <span class="card-body">0</span>
@@ -79,63 +79,63 @@
     <h2 class="text-center">Parámetros Técnicos</h2>
     <hr>
 		
-      <span>Área de Módulo</span>
+      <span class="espacio">Área de Módulo</span>
       <div class="card "> 
         <div>
           <span class="card-body"><?php echo $pt->area;?> m<sup>2</sup></span>
         </div>
       </div>
 
-      <span>No. De Plantas por m<sup>2</sup></span>
+      <span class="espacio">No. De Plantas por m<sup>2</sup></span>
       <div class="card"> 
         <div>
           <span class="card-body"><?php echo $pt->plantas_metro;?></span>
         </div>
       </div>
 
-      <span>No. Total de Plantas por Módulo</span>
+      <span class="espacio">No. Total de Plantas por Módulo</span>
       <div class="card"> 
         <div>
           <span class="card-body"><?php echo $pt->plantas_modulo;?></span>
         </div>
       </div>
     
-      <span>Rendimiento Esperado</span>      
+      <span class="espacio">Rendimiento Esperado</span>      
       <div class="card"> 
         <div>
           <span class="card-body"><?php echo $pt->rendimiento;?><?php echo $pt->um;?></span>
         </div>
       </div>
     
-      <span>Número de Modulos</span>
+      <span class="espacio">Número de Modulos</span>
       <div class="card"> 
         <div>
           <span class="card-body"><?php echo $pt->modulos;?></span>
         </div>
       </div>
     
-      <span>Número de Sistemas de Riego</span>
+      <span class="espacio">Número de Sistemas de Riego</span>
       <div class="card"> 
         <div>
           <span class="card-body"><?php echo $pt->riego;?></span>
         </div>
       </div>
 
-      <span>Número de Sistemas de Calefacción</span>
+      <span class="espacio">Número de Sistemas de Calefacción</span>
       <div class="card"> 
         <div>
           <span class="card-body"><?php echo $pt->calefaccion;?></span>
         </div>
       </div>
 
-      <span>Número de Ciclos por Año</span>
+      <span class="espacio">Número de Ciclos por Año</span>
       <div class="card"> 
         <div>
           <span class="card-body"><?php echo $pt->ciclos;?></span>
         </div>
       </div>
 
-      <span>Porcentaje de Inflación</span>
+      <span class="espacio">Porcentaje de Inflación</span>
       <div class="card"> 
         <div>
           <span class="card-body"><?php echo $pt->inflacion;?></span>
