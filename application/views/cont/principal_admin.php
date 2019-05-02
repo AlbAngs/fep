@@ -45,7 +45,7 @@
                       </button>
                     </div>
 
-                    <div class="modal-body text-left obligatorio2" >
+                    <div class="modal-body text-left alert-warning" >
                            El profesor se eliminará de la lista
                     </div>
 
