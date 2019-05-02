@@ -143,7 +143,7 @@
         <?php //modal eliminar?>
 
         <div class="modal fade" id="eliminar_fijo<?=$f->id;?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-dialog " role="document">
                 <div class="modal-content">
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalCenterTitle">¿Está seguro de eliminar el concepto?</h5>
@@ -153,7 +153,7 @@
                   </div>
                   <div class="modal-body">
                     <div class="form-group">
-                      <h5 class="alert obligatorio2">
+                      <h5 class="alert alert-warning">
                         Se eliminará el concepto <?php echo $f->concepto; ?>
                       </h5>
                     </div>
@@ -291,7 +291,7 @@
         <?php //modal eliminar?>
 
         <div class="modal fade" id="eliminar_diferido<?=$d->id;?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-dialog " role="document">
                 <div class="modal-content">
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalCenterTitle">¿Está seguro de eliminar el concepto?</h5>
@@ -301,7 +301,7 @@
                   </div>
                   <div class="modal-body">
                     <div class="form-group">
-                      <h5 class="alert obligatorio2">
+                      <h5 class="alert alert-warning">
                         Se eliminará el concepto <?php echo $d->concepto; ?>
                       </h5>
                     
@@ -437,7 +437,7 @@
         <?php //modal eliminar?>
 
         <div class="modal fade" id="eliminar_capital<?=$c->id;?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalCenterTitle">¿Está seguro de eliminar el concepto?</h5>
@@ -447,7 +447,7 @@
                   </div>
                   <div class="modal-body">
                     <div class="form-group">
-                      <h5 class="alert obligatorio2">
+                      <h5 class="alert alert-warning">
                         Se eliminará el concepto <?php echo $c->concepto; ?>
                       </h5>
                     </div>
