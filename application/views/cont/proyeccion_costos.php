@@ -148,9 +148,9 @@
         </button>
       </div>
       <div class="modal-body">
-        <h3 class="text-center"></h3>
         <br>
-        <div class="modal-body text-left obligatorio2">El concepto de la memoria costos administrativa se eliminará</div>
+        <div class="modal-body text-left alert-warning">El concepto de la memoria costos administrativa se eliminará</div>
+	<br>
         <form action="<?php echo base_url() ?>projection_costs/delete_concept" method="post">
         	<input type="hidden" name="eli" id="elim">
         	<input type="reset" class="btn btn-secondary col-4 offset-1" data-dismiss="modal" value="Cancelar">
