@@ -157,7 +157,8 @@
       </div>
       <div class="modal-body">
         <br>
-          <div class="modal-body text-left obligatorio2" >El alumno se eliminará de la lista</div>   
+          <div class="modal-body text-left alert-warning" >El alumno se eliminará de la lista</div> 
+	      <br>
                <form action="<?php echo base_url() ?>professor/delete_student" method="post">
         	<input type="hidden" name="eli" id="elim">
           <input type="hidden" name="grupo" id="grup">
