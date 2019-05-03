@@ -81,7 +81,7 @@
         </li>
         <li class="nav-item nuevomenu">
           <a class="navbarra menuses" title="Lista de Grupos" href="<?php echo base_url();?>professor">Listas de Grupos</a>
-        </li>u
+        </li>
 
         <li class="nav-item nuevomenu">
           <a class="navbarra menuses" title="Perfil" style="cursor:pointer;" href="<?php echo base_url();?>professor/profile">Perfil</a>
