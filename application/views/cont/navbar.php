@@ -38,24 +38,28 @@
           if ($this->session->userdata('grupo') === 'root') 
           { 
       ?>
-<li class="nav-item">     
-          <span class=" icon-user" title="Usuario" >
-            <?php //muestra el nombre de usuario
-              print($this->session->userdata('usuario'));
-            ?>
+ <li class="nav-item">     
+          <span class="  icon-user"  >
           </span>
+      </li>
+
+       <li class="nav-item nuevomenu ">
+       <a class="navbarra " title="Usuario">
+         <?php //muestra el nombre de usuario
+              print($this->session->userdata('usuario'));
+            ?></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item nuevomenu">
           <a class="navbarra menuses" title="Lista de Profesores" style="cursor:pointer;" href="<?php echo base_url();?>admin">Lista de Profesores</a>
         </li>
 
-        <li class="nav-item">
+        <li class="nav-item nuevomenu">
           <a class="navbarra menuses" title="Nuevo Semestre" style="cursor:pointer;" href="<?php echo base_url();?>admin/reset">Nuevo Semestre</a>
         </li>
         
 
-        <li class="nav-item menuses"> <!--muestra icono de salida --> 
-          <a href="<?php echo base_url();?>access/logout" title="Cerrar Sesión"><span class="icon-switch nav-link" ></span></a> 
+        <li class="nav-item"> <!--muestra icono de salida --> 
+          <a class="navbarra menuses" href="<?php echo base_url();?>access/logout" title="Cerrar Sesión"><span class="icon-switch" ></span></a> 
         </li>
         <?php 
           }
@@ -65,17 +69,21 @@
             { 
         ?>     
         <li class="nav-item">     
-          <span class=" icon-user" title="Usuario">
-            <?php //muestra el nombre de usuario
-              print($this->session->userdata('usuario'));
-            ?>
+          <span class="  icon-user"  >
           </span>
-        </li>
-        <li class="nav-item">
+      </li>
+
+       <li class="nav-item nuevomenu ">
+       <a class="navbarra " title="Usuario">
+         <?php //muestra el nombre de usuario
+              print($this->session->userdata('usuario'));
+            ?></a>
+        </li>>
+        <li class="nav-item nuevomenu">
           <a class="navbarra menuses" title="Lista de Grupos" href="<?php echo base_url();?>professor">Listas de Grupos</a>
         </li>
 
-        <li class="nav-item">
+        <li class="nav-item nuevomenu">
           <a class="navbarra menuses" title="Perfil" style="cursor:pointer;" href="<?php echo base_url();?>professor/profile">Perfil</a>
         </li>
 
@@ -87,13 +95,18 @@
           }
           else{
       ?>
-      <li class="nav-item">     
-          <span class=" icon-user" title="Usuario" >
-            <?php //muestra el nombre de usuario
-              print($this->session->userdata('usuario'));
-            ?>
+     <li class="nav-item">     
+          <span class="  icon-user"  >
           </span>
-    <li class="nav-item dropdown  ">
+      </li>
+
+       <li class="nav-item nuevomenu ">
+       <a class="navbarra " title="Usuario">
+         <?php //muestra el nombre de usuario
+              print($this->session->userdata('usuario'));
+            ?></a>
+        </li>
+    <li class="nav-item dropdown nuevomenu ">
           <a  class=" text-white nav-link dropdown-toggle menuses "  data-toggle="dropdown"  href="<?php echo base_url();?>">Proyecto</a>
           <div class="dropdown-menu">
               <a class=" navbarra menuses" title="Modificar Nombre del  Proyecto" data-toggle="modal" data-target="#modificar_proyecto" style="cursor:pointer; ">Modificar Nombre</a>
@@ -102,7 +115,7 @@
       </li>        
 
 
-        <li class="nav-item">
+        <li class="nav-item nuevomenu">
           <a class=" navbarra menuses" title="Modificar Contraseña" data-toggle="modal" data-target="#al_pass" style="cursor:pointer;">
             Modificar Contraseña
           </a>
