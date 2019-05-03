@@ -39,13 +39,13 @@ p {
      text-align:     center;
      font-size: 12pt;
  } 
- .menu li {
+ .nuevomenu {
  border-right:     1px solid white;
- float: left;
+ /*float: left;
  list-style:     none outside none;
  padding-left:     5px;
  padding-right:     5px;
- width: auto;    
+ width: auto; */   
 }
 .menu li:last-child     {
      border-right:none;    
